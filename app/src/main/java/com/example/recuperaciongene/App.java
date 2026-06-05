@@ -21,7 +21,7 @@ public static void main(String[] args) {
         
     //Nota primer parcial
         System.out.print("Ingrese la nota del primer parcial: ");
-        nota1 = sc.nextDouble();
+        nota1 = sc.nextDouble();//nota1
     //Nota segundo parcial
         System.out.print("Ingrese la nota del segundo parcial: ");
         nota2 = sc.nextDouble();
