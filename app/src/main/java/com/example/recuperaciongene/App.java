@@ -10,7 +10,7 @@ public class App {
 public static void main(String[] args) {
     //Librería Scanner
         Scanner sc = new Scanner(System.in);
-        
+        //BIENVENIDO AL SISTEMA
     // Ingresar variables
         double nota1, nota2, nota3,suma, promedio;
         
@@ -52,7 +52,7 @@ public static void main(String[] args) {
         
         }  
         
-    //Fin del sistema
+    //Fin del sistema...
     //Gracias por usar el sistema
     //Gracias por la recuperación ing  
     }
