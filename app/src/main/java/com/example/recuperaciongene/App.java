@@ -56,5 +56,6 @@ public static void main(String[] args) {
     //Gracias por usar el sistema
     //Gracias por la recuperación ing 
     //Programa hecho por Genesis
+    //BYE
     }
 }
