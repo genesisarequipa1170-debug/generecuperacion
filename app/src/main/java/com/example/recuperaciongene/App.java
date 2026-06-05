@@ -12,7 +12,7 @@ public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
     // Ingresar variables
-        double nota1, nota2, nota3, promedio;
+        double nota1, nota2, nota3,suma, promedio;
         
     //Ingresando notas a calcular
         System.out.println("============================");
@@ -29,7 +29,8 @@ public static void main(String[] args) {
         System.out.print("Ingrese la nota del tercer parcial: ");
         nota3 = sc.nextDouble();
 
-        promedio = (nota1 + nota2 + nota3) / 3;
+        suma = (nota1 + nota2 + nota3);
+        promedio = suma/3;
 
         System.out.println("El promedio es: " + promedio);
         
