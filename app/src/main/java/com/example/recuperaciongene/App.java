@@ -29,7 +29,7 @@ public static void main(String[] args) {
         System.out.print("Ingrese la nota del tercer parcial: ");
         nota3 = sc.nextDouble();
 
-        suma = (nota1 + nota2 + nota3);
+        suma = (nota1 + nota2 + nota3); //Sumatoria de las notas
         promedio = suma/3;
      //Condicion if
         if( suma>=21 && suma <=30) {  
