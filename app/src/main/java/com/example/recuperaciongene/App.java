@@ -27,7 +27,8 @@ public static void main(String[] args) {
         promedio = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("El promedio es: " + promedio);
-
+        
+    //Fin del sistema
        
     }
 }
