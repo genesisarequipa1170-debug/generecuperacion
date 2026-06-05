@@ -30,7 +30,7 @@ public static void main(String[] args) {
         nota3 = sc.nextDouble();
 
         suma = (nota1 + nota2 + nota3); //Sumatoria de las notas
-        promedio = suma/3;
+        promedio = suma/3; //Promedio dividido para 3
      //Condicion if
         if( suma>=21 && suma <=30) {  
         System.out.println("El estudiante aprobo directo,su nota es: "+ promedio);
