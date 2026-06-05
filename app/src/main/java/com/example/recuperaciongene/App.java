@@ -32,7 +32,24 @@ public static void main(String[] args) {
         suma = (nota1 + nota2 + nota3);
         promedio = suma/3;
 
-        System.out.println("El promedio es: " + promedio);
+        if( suma>=21 && suma <=30) {  
+        System.out.println("El estudiante aprobo directo,su nota es: "+ promedio);
+        } else if (suma < 21 && suma >= 15) { 
+        System.out.println(" El estudiante debe dar el examen supletorio");
+        double examen = sc.nextDouble();
+        double porcentaje_promedio = promedio*0.6;
+        double porcentaje_examen =examen*0.4;
+        double total_examen = porcentaje_promedio + porcentaje_examen;
+        if (total_examen >=7){
+            System.out.println("El estudiante aprueba con el examen final,su promedio es: 7,00 ");
+        } else {
+            System.out.println("El estudiante reprobo con examen final, su promedio es: "+total_examen);
+        }
+        }
+        else{ 
+            System.out.println("El estudiante aprueba directo, el promedio es: "+promedio);
+        
+        }  
         
     //Fin del sistema
        
