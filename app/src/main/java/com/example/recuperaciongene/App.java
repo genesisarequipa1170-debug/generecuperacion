@@ -15,6 +15,9 @@ public static void main(String[] args) {
         double nota1, nota2, nota3, promedio;
         
     //Ingresando notas a calcular
+        System.out.println("============================");
+        System.out.println("SISTEMA PARA CALCULAR NOTAS");
+        System.out.println("============================");
         System.out.print("Ingrese la primera nota: ");
         nota1 = sc.nextDouble();
 
