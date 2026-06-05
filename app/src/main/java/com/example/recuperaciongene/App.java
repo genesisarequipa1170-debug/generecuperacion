@@ -20,13 +20,13 @@ public static void main(String[] args) {
         System.out.println("============================");
         
     //Nota primer parcial
-        System.out.print("Ingrese la primera nota del primer parcial: ");
+        System.out.print("Ingrese la nota del primer parcial: ");
         nota1 = sc.nextDouble();
     //Nota segundo parcial
-        System.out.print("Ingrese la segunda nota del segundo parcial: ");
+        System.out.print("Ingrese la nota del segundo parcial: ");
         nota2 = sc.nextDouble();
-
-        System.out.print("Ingrese la tercera nota: ");
+    //Nota tercer parcial
+        System.out.print("Ingrese la nota del tercer parcial: ");
         nota3 = sc.nextDouble();
 
         promedio = (nota1 + nota2 + nota3) / 3;
