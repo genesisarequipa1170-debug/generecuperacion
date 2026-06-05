@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class App {
     
 public static void main(String[] args) {
+    //Librería Scanner
         Scanner sc = new Scanner(System.in);
 
         double nota1, nota2, nota3, promedio;
