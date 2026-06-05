@@ -40,6 +40,7 @@ public static void main(String[] args) {
         double porcentaje_promedio = promedio*0.6;
         double porcentaje_examen =examen*0.4;
         double total_examen = porcentaje_promedio + porcentaje_examen;
+        //condicion if
         if (total_examen >=7){
             System.out.println("El estudiante aprueba con el examen final,su promedio es: 7,00 ");
         } else {
