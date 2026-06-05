@@ -10,9 +10,11 @@ public class App {
 public static void main(String[] args) {
     //Librería Scanner
         Scanner sc = new Scanner(System.in);
+        
     // Ingresar variables
         double nota1, nota2, nota3, promedio;
-
+        
+    //Ingresando notas a calcular
         System.out.print("Ingrese la primera nota: ");
         nota1 = sc.nextDouble();
 
