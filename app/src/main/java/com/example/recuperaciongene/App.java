@@ -27,7 +27,7 @@ public static void main(String[] args) {
         nota2 = sc.nextDouble();//nota 2
     //Nota tercer parcial
         System.out.print("Ingrese la nota del tercer parcial: ");
-        nota3 = sc.nextDouble();
+        nota3 = sc.nextDouble();//nota3
 
         suma = (nota1 + nota2 + nota3); //Sumatoria de las notas
         promedio = suma/3; //Promedio dividido para 3
