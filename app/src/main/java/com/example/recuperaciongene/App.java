@@ -18,7 +18,9 @@ public static void main(String[] args) {
         System.out.println("============================");
         System.out.println("SISTEMA PARA CALCULAR NOTAS");
         System.out.println("============================");
-        System.out.print("Ingrese la primera nota: ");
+        
+    //Nota primer parcial
+        System.out.print("Ingrese la primera nota del primer parcial: ");
         nota1 = sc.nextDouble();
 
         System.out.print("Ingrese la segunda nota: ");
