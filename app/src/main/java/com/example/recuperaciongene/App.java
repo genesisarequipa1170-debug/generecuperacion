@@ -31,10 +31,10 @@ public static void main(String[] args) {
 
         suma = (nota1 + nota2 + nota3);
         promedio = suma/3;
-
+     //Condicion if
         if( suma>=21 && suma <=30) {  
         System.out.println("El estudiante aprobo directo,su nota es: "+ promedio);
-        } else if (suma < 21 && suma >= 15) { 
+        } else if (suma < 21 && suma >= 15) { //caso contrario
         System.out.println(" El estudiante debe dar el examen supletorio");
         double examen = sc.nextDouble();
         double porcentaje_promedio = promedio*0.6;
