@@ -47,7 +47,7 @@ public static void main(String[] args) {
             System.out.println("El estudiante reprobo con examen final, su promedio es: "+total_examen);
         }
         }
-        else{ 
+        else{ //si pasa directo
             System.out.println("El estudiante aprueba directo, el promedio es: "+promedio);
         
         }  
